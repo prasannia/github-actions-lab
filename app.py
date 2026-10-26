@@ -3,7 +3,7 @@ def calculate_total(price, quantity):
     if price < 0 or quantity < 0:
         raise ValueError("Price and quantity cannot be negative")
 
-    return price + quantity
+    return price * quantity
 
 
 def main():
